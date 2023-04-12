@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.image {
+  height: 350px;
+}
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.speed {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.description {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+}
+.buttons {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 210px;
+}
+.button {
+  border-radius: 7px;
+  padding: 9px;
+  border: 0px solid transparent;
+}
+.button:hover {
+  cursor: pointer;
+  outline: none;
+}
+.button1 {
+  background-color: #0b69ff;
+  color: #ffffff;
+}
+.button2 {
+  background-color: transparent;
+  color: #94a3b8;
+  border: 2px solid #94a3b8;
+}
